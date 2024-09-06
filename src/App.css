@@ -1,0 +1,138 @@
+/* General layout settings */
+body {
+  background-color: #000; /* Black background */
+  color: white; /* White text */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Tabs Section Styles */
+.tabs-section {
+  background-color: #222; /* Dark gray background for tabs section */
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+/* General button styles */
+.tab-button {
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
+
+.tab-button-active {
+  background-color: #333; /* Darker black-gray for active state */
+  color: white;
+}
+
+.tab-button:hover {
+  background-color: #555; /* Gray for hover effect */
+  color: white;
+}
+
+/* Standard Button Styles */
+.standard-button {
+  background-color: #333; /* Darker black-gray for button */
+  color: white;
+  padding: 0.5rem 1rem; /* Smaller size for standard button */
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+}
+
+.standard-button:hover {
+  background-color: #555; /* Gray for hover effect */
+  transform: scale(1.05); /* Slight scale animation */
+}
+
+/* Gallery Section Styles */
+.gallery-section {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #111; /* Darker section background for contrast */
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Gallery Image Styles */
+.gallery-image {
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3); /* White shadow effect on hover */
+}
+
+/* Add Image Button Styles */
+.add-image-button {
+  background-color: #333; /* Darker black-gray for button */
+  color: white;
+  padding: 0.25rem 0.5rem; /* Smaller button size */
+  border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+}
+
+.add-image-button:hover {
+  background-color: #555; /* Gray for hover effect */
+  transform: scale(1.05); /* Slight scale animation */
+}
+
+.add-image-button .icon {
+  margin-right: 0.5rem; /* Spacing between icon and text */
+}
+
+/* Arrow Button Styles */
+.arrow-button {
+  background-color: #333; /* Darker black-gray for button */
+  color: white;
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-size: 1.25rem; /* Smaller arrow size */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+}
+
+.arrow-button:hover {
+  background-color: #555; /* Gray for hover effect */
+  transform: scale(1.05); /* Slight scale animation */
+}
+
+/* Ensure sections are visually distinct */
+.section {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #222;
+}
+
+/* Scrolling Content Styles */
+.scrollable-content {
+  max-height: 300px; /* Adjust as needed */
+  overflow-y: auto;
+  padding-right: 1rem; /* Ensure scrollbar does not overlap text */
+}
+
+/* Scroll Icon Styles */
+.scroll-icon {
+  display: block;
+  margin: 1rem auto;
+  font-size: 2rem;
+  text-align: center;
+  color: #555; /* Gray for visibility */
+}
